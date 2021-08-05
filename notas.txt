@@ -1,0 +1,35 @@
+# Curso JavaScript: 45. Asincronía y el Event Loop 
+--------------------------------------------------------------------------------------------------------------
+
+# Curso JavaScript: 105. AJAX
+Asynchronous Javascript And XML
+* Fue creado por Microsoft para el proyecto de outlook web en el cual querian mostrar 
+  los nuevos correos electrónicos sin necesidad de recargar la página.
+* Es un intermediario entre el navegador web y el servidor.
+
+MÉTODOS NATIVOS
+* ActiveXObject (IE8 e inferiores)
+* XMLHttpRequest
+* API Fetch
+
+LIBRERÍAS EXTERNAS
+* jQuery.ajax()
+* Axios
+
+AJAX no es una tecnología en sí mismo. En realidad, se trata de varias tecnologías independientes que se unen
+
+ESTADOS DE LA PETICIÓN DE AJAX
+1. READY_STATE_UNINITIALIZED = 0 La petición se esta inicializando
+2. READY_STATE_LOADING       = 1 Se estan enviando los datos al servidor
+3. READY_STATE_LOADED        = 2 Ya el servidor respondio al cliente, pero todavía no recibe la información 
+4. READY_STATE_INTERACTIVE   = 3 El motor de JavaScript ya tiene acceso a los datos de esta petición
+5. READY_STATE_COMPLETE      = 4 Ya tiene los datos listos
+
+CÓDIGOS INFORMATIVOS
+* Respuestas informativas   (100-199)
+* Respuestas satisfactorias (200-299)
+* Redirecciones             (300-399)
+* Errores de los clientes   (400-499)
+* Errores de los servidor   (500-599)
+
+--------------------------------------------------------------------------------------------------------------
