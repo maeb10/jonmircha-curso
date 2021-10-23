@@ -44,6 +44,26 @@
       "nombre": "Máscara de Muerte",
       "constelacion": "Cancer",
       "id": 9
+    },
+    {
+      "nombre": "Aioria",
+      "constelacion": "Leo",
+      "id": 10
+    },
+    {
+      "nombre": "Shakas",
+      "constelacion": "Virgos",
+      "id": 11
+    },
+    {
+      "nombre": "Dohko",
+      "constelacion": "Libra",
+      "id": 12
+    },
+    {
+      "nombre": "Milo",
+      "constelacion": "Escorpión",
+      "id": 14
     }
   ],
   "dioses": [
